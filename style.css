@@ -4,3 +4,12 @@
     background-color: #001f3f; /* Orange */
     color: #ffffff;
 }
+
+.box {
+	min-height: 100px;
+	background-color: #ffffff;
+}
+
+.well {
+	background-color: #ffffff;
+}
