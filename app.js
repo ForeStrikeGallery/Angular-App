@@ -25,12 +25,14 @@ app.controller('MainCtrl', function() {
 
 
 	self.addPost = function(post) {
-		self.data.push({
+		self.data.unshift({
 			id: 2,
 			name: 'Mridul Mohan',
 			img_src: 'photo1.png',
 			post: post
 		});
+
+		self.post = '';
 	}
 	
 });
